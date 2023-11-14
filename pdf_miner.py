@@ -48,7 +48,7 @@ def PDF_parser()->list:
     return texts_pdf
 
 def txt_list():
-    nombre_archivo = "motor_de_busqueda/extractor_pdf/actas_concejo.txt"
+    nombre_archivo = "actas_concejo.txt"
     mi_lista: list = []
     # Abre el archivo en modo lectura
     with open(nombre_archivo, 'r') as archivo:
